@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ZeoXpro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","llKILLER_OPll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","NezukoProBot")
+BOT_USERNAME = getenv("BOT_USERNAME","SAPNAXMUSICBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -35,14 +35,14 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002100130095))
-SUB_LOG = int(getenv("SUB_LOG", -1002375785889))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002014882444))
+SUB_LOG = int(getenv("SUB_LOG", -1002014882444))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(getenv("OWNER_ID", 7840042336))
 
 #temp
-MAIN_OWNER = int(getenv("OWNER_ID", 7355202884))
+MAIN_OWNER = int(getenv("OWNER_ID", 7840042336))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -66,7 +66,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamProBots/GUNGUNMUSIC",
+    "https://github.com/TeamProBots/GUNGUNMUSIC/",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -80,8 +80,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TEAM_AYUSHI")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_AYUSHI")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KILLER_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+qeecbptRBC81MjQ9")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -154,10 +154,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/4ta5vl.jpg, https://files.catbox.moe/4ta5vl.jpg, https://files.catbox.moe/4ta5vl.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/1827dd6c414ce09098002.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/4ta5vl.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/08db892ae10fcd27fc420.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/1827dd6c414ce09098002.jpg"
